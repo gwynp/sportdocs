@@ -1,0 +1,26 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+#relative_permalinks: true
+
+# Setup
+title:               SportDocs
+tagline:             'Sport Documentaries News and Reviews'
+description:         ''
+url:                 http://sportdocs.org
+baseurl:             ''
+paginate:            5
+paginate_path:       "page:num"
+
+# About/contact
+author:
+  name:              Gwyn Price
+  url:               https://twitter.com/gwynp
+  email:             gwyn@gwynprice.ca
+
+# Custom vars
+version:             1.0.0
+
+# Gems
+gems: [jekyll-paginate]
